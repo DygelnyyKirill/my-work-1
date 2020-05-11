@@ -15,9 +15,26 @@ nav {
     font-size: 125%;
     margin: 0 1.5%;
 }
-div {
-    background: white;
-    padding: 50px;
+.container-1 {
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    border: 1px solid silver;
+}
+.box-1 {
+    flex: 1;
+    order: 2;
+    margin-left: 20px;
+}
+.box-2 {
+    flex: 1;
+    order: 1;
+    margin-left: 20px;
+}
+.box-3 {
+    flex: 1;
+    order: 3;
+    margin-left: 100px;
 }
 H1 {
     color: black;
@@ -37,6 +54,60 @@ tr {
     color: black;
     text-align: center;
 }
+tr:nth-child(even) {
+    background: #2b21215b;
+}
+tr:nth-child(odd) {
+    background: #830afc1b;
+}
 img {
-    margin-bottom: 10%;
+
+}
+h3 {
+    background: grey;
+    color: blue;
+    text-align: center;
+    font-size: 150%;
+    }
+span {
+    text-decoration: underline;
+    font-size: 50%;
+}
+table {
+    width: 90%;
+    height: 80%;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    border: 1px solid;
+}
+.container-2 {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    border: 1px solid silver;
+    color: black;
+    font-family: Arial, Verdana, cursive;
+    font-size: 25px;
+}
+.box-4 {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+}
+.box-5 {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+}
+.box-6 {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+}
+.box-7 {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
 }
