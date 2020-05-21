@@ -210,7 +210,7 @@ span {
     color: white;
 }
 .footer {
-    background-color: black;
+    background-color: darkgray;
 }
 */*************************************/*
 .header_catalog {
@@ -277,12 +277,6 @@ span {
     font-family: Arial, Verdana, cursive;
     text-align: center;
 }
-.main_content {
-
-}
-.container_main {
-
-}
 .main_row {
     display: flex;
 }
@@ -290,12 +284,91 @@ span {
     flex-shrink: 0;
     width: 255px;
     margin-right: 30px;
-
 }
 .main_column-right {
     width: 825px;
 }
 .navigation{
+    margin-top: 30px;
     height: 300px;
-    background-color: #5e5e5e;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+.navigation_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.navigation_item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.navigation_item:last-child {
+    border-bottom: none;
+}
+.navigation_item_title {
+    margin-left: 20px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+.navigation_item_arrow {
+    margin-left: auto;
+    margin-right: 20px;
+}
+.info-block{
+    height: 300px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 20px 20px 30px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info-block_title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+
+}
+.info-block_subtitle {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+    font-size: 15px;
+}
+.tabs {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0 40px;
+    width: 100%;
+}
+.tabs_btn {
+    padding-left: 50px;
+    margin-left: 15px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: black;
+    font-family: Arial, Verdana, cursive;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.cards-wrapper {
+
 }
