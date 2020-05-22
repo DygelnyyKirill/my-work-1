@@ -54,7 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
+    height: 500px;
     background: url("images3.jpg") center no-repeat;
     padding-top: 247px;
 }
@@ -226,7 +226,6 @@ span {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-
 }
 .catalog_inner {
     display: flex;
@@ -240,7 +239,6 @@ span {
     border-radius: 4px;
     display: flex;
     align-items: center;
-
 }
 .header_search-input {
     border: none;
@@ -262,7 +260,7 @@ span {
     flex-grow: 1;
 }
 .intro1 {
-    height: 610px;
+    height: 420px;
     background:  url("images3.jpg") center no-repeat;
 }
 .intro_catalog {
@@ -299,7 +297,6 @@ span {
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
 .navigation_item {
     display: flex;
@@ -370,5 +367,46 @@ span {
     text-align: center;
 }
 .cards-wrapper {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.card_header {
 
+}
+.title {
+    font-size: 25px;
+    color: #222;
+    font-family: Arial, Verdana, cursive;
+    text-align: center;
+    margin: 0;
+}
+.subtitle {
+    font-size: 12px;
+    color: #919191;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.card {
+    text-align: center;
+
+}
+.card_image {
+
+}
+.card_title {
+    font-family: Arial, Verdana, cursive;
+    color: #222;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.card_price {
+    font-size: 13px;
+    color: #f74464;
+}
+.card_price span1 {
+    color: #838b8f;
+    text-decoration: line-through;
+    margin-right: 5px;
 }
