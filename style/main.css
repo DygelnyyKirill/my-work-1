@@ -55,7 +55,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 500px;
-    background: url("images3.jpg") center no-repeat;
+    background: url("../img/background/images3.jpg") center no-repeat;
     padding-top: 247px;
 }
 .intro_inner {
@@ -167,7 +167,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 1000px;
-    background: url("img/tablework.jpg.svg") center no-repeat;
+    background: url("../img/tablework.jpg.svg") center no-repeat;
 }
 .Mode_operation {
     padding: 10px;
@@ -261,7 +261,7 @@ span {
 }
 .intro1 {
     height: 420px;
-    background:  url("images3.jpg") center no-repeat;
+    background:  url("../img/background/images3.jpg") center no-repeat;
 }
 .intro_catalog {
     display: flex;
