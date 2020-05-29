@@ -10,6 +10,7 @@
     background-color: white;
     height: 180px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
 }
 .container {
     width: 100%;
@@ -26,6 +27,7 @@
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+    padding-bottom: 40px;
 }
 .header_search {
     width: 500px;
@@ -82,30 +84,4 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 2.14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-    background-color: green; /*Добавление тени увеличивает ширину элемента, поэтому возможно появление горизонтальной полосы прокрутки в браузере*/
 }
