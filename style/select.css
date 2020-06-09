@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: #8f8a8a;
+} 
+*,
+* :before,
+* :after {
+    box-sizing: border-box;
+}
+.container { 
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #515369;
+    padding: 35px 0;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav_link {
+    margin-left: 50px;
+    color: #d36666;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .2s linear;
+}
+.nav_link:first-child {
+    margin-left: 0;
+}
+.nav_link:hover {
+    opacity: 1;
+}
+.intro {
+   height: 250px; 
+   background: url("../img/background/images3.jpg") center no-repeat;
+}
+@import 'foundation';
+
+@include foundation-xy-grid-classes(
+  /* options
+  $base-grid: true,
+  $margin-grid: true,
+  $padding-grid: true,
+  $block-grid: true,
+  $collapse: true,
+  $offset: true,
+  $vertical-grid: true,
+  $frame-grid: true
+  */
+);
