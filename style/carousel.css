@@ -1,3 +1,23 @@
+.header_links {
+    display: flex;
+    align-items: center;
+}
+.header_link--notify {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.header-link_icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+.header-link_text {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+}
 .carousel-section {
     margin-bottom: 30px;
 }

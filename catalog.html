@@ -20,27 +20,45 @@
     <header class="header">
         <div class="container">
             <div class="header_container">
-                <div class="header_logo">
-                    <img src="img/background/logo.png" alt="" height="96">
+                <div  class="header_logo">
+                    <img id="header_logo" src="img/background/logo.png" alt="" height="96">
                 </div>
-                <div class="header_search">
+                
+
+
+
+                <form class="header_search">
                     <div class="header_search-input-wrapper">
-                        <input class="header_search-input type="text" placeholder="Search goods">
+                        <input class="header_search-input" type="text" placeholder="Search goods">
                     </div>
                     <div class="header_search-dropdown">
-                        <select name="" id="">
+                        
+                        <div data-select class="header_select">
+                            <div class="header_select_title">CATEGORY</div>
+                            <div class="header_select_dropdawn">
+                                <div class="header_select_dropdawn_item">EYELASHES</div>
+                                <div class="header_select_dropdawn_item">EYEBROWS</div>
+                                <div class="header_select_dropdawn_item">COUCH</div>
+                            </div>
+                        </div>
+                       
+                        <!-- <select name="" id="">
                             <option value="">CATEGORY</option>
                             <option value="">EYELASHES</option>
                             <option value="">EYEBROWS</option>
                             <option value="">COUCH</option>
-                        </select>
+                        </select> -->
                     </div>
-                    <div class="header_search-wrapper">
-                        <button class="header_search-button type="submit">
-                            <img src="img/background/lypa.png">
+                    <div class="header_search-button-wrapper">
+                        <button class="header_search-button" type="submit">
+                            <img src="img/background/lypa.png" alt="">
                         </button>
                     </div>
-                </div>
+                </form>
+
+                
+
+
                 <div class="header_links">
                     <div class="header_link--notify">
                         <div class="header-link_icon"><img src="img/background/bask.png" alt="Cart"></div>
@@ -267,5 +285,6 @@
             <p>index 85300</p>
         </span>
     </div>
+    <script src="js/catalog.js"></script>
 </body>
 </html>

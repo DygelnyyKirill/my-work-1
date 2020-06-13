@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header1 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-areas: "header_logo header_nav header_contacts" ". header_text .";
+    
+}
+.header_logo1 {
+    grid-area: header_logo;
+}
+.header_nav {
+    grid-area: header_nav;
+}
+.header_contacts {
+    grid-area: header_contacts;
+}
+.header_text {
+    grid-area: header_texr;
+}
