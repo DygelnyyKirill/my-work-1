@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Catalog</title>
     <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/headerNav.css">
     <link rel="stylesheet" href="style/carousel.css">
     <link rel="stylesheet" href="style/grid.css">
     <link rel="stylesheet" href="style/gridInfoclas.css">
@@ -23,42 +24,26 @@
                 <div  class="header_logo">
                     <img id="header_logo" src="img/background/logo.png" alt="" height="96">
                 </div>
-                
-
-
-
-                <form class="header_search">
+                <div class="header_search">
                     <div class="header_search-input-wrapper">
                         <input class="header_search-input" type="text" placeholder="Search goods">
                     </div>
                     <div class="header_search-dropdown">
-                        
                         <div data-select class="header_select">
-                            <div class="header_select_title">CATEGORY</div>
-                            <div class="header_select_dropdawn">
-                                <div class="header_select_dropdawn_item">EYELASHES</div>
-                                <div class="header_select_dropdawn_item">EYEBROWS</div>
-                                <div class="header_select_dropdawn_item">COUCH</div>
+                            <div data-select-title class="header_select_title">CATEGORY</div>
+                            <div class="header-select-dropdawn hidden">
+                                <div data-select-item="EYELASHES" class="header-select-dropdawn-item">EYELASHES</div>
+                                <div data-select-item="EYEBROWS" class="header-select-dropdawn-item">EYEBROWS</div>
+                                <div data-select-item="COUCH" class="header-select-dropdawn-item">COUCH</div>
                             </div>
                         </div>
-                       
-                        <!-- <select name="" id="">
-                            <option value="">CATEGORY</option>
-                            <option value="">EYELASHES</option>
-                            <option value="">EYEBROWS</option>
-                            <option value="">COUCH</option>
-                        </select> -->
                     </div>
                     <div class="header_search-button-wrapper">
                         <button class="header_search-button" type="submit">
                             <img src="img/background/lypa.png" alt="">
                         </button>
                     </div>
-                </form>
-
-                
-
-
+                </div>
                 <div class="header_links">
                     <div class="header_link--notify">
                         <div class="header-link_icon"><img src="img/background/bask.png" alt="Cart"></div>
@@ -70,6 +55,24 @@
                     </div>
                 </div>
             </div>
+            <div class="header_nav">
+                <nav class="header-nav">
+                    <div class="header-nav-categories">
+                        <a href="#" class="header-mega-menu-link">
+                           <span class="header-mega-menu-link-icon">
+                               <img src="../Project 1/img/icon/meny.svg" alt="menu">
+                           </span>
+                           <span class="header-mega-menu-link-text">All Categories</span>
+                        </a>
+                    </div>
+                    <div class="header-nav-deals">
+
+                    </div>
+                    <div class="header-nav-select">
+
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
     <section class="carousel-section">
@@ -77,7 +80,7 @@
             <div class="carousel">
                 <div class="carousel_item">
                     <h2 class="carousel_item-title">The Universe Though A Child s Eyes</h2>
-                    <div class="carousel_item-text">
+                     <div class="carousel_item-text">
                         <p>Start sales</p>
                     </div>
                 </div>

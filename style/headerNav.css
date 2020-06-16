@@ -1,0 +1,31 @@
+.header_nav {
+    border-top: 2ps solid #f5f5f5;
+}
+.header-nav {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: khaki;
+    border-left: 2px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+    display: flex;
+
+}
+.header-nav-categories {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(235, 111, 54);
+    border-right: 2px solid #f5f5f5;
+}
+.header-nav-deals {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(7, 106, 131);
+    border-right: 2px solid #f5f5f5;
+
+}
+.header-nav-select {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(24, 65, 41);
+    
+}
