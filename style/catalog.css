@@ -8,14 +8,15 @@
 }
 .header {
     background-color: white;
-    height: 180px;
+    height: 150px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .container {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 .header_container {
     width: 100%;
@@ -27,7 +28,7 @@
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
     
 }
 .header_search {
@@ -91,7 +92,7 @@
     display: block;
     width: 8px;
     height: 8px;
-    background-image: url(../img/background/canva-photo-editor.png);
+    background-image: url(../img/icon/canva-photo-editor.png);
 }
 .header-select-dropdawn {
     /* display: none; */
