@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style/headerNav.css">
     <link rel="stylesheet" href="style/carousel.css">
     <link rel="stylesheet" href="style/grid.css">
-    <link rel="stylesheet" href="style/gridInfoclas.css">
-
+    <link rel="stylesheet" href="style/carousel-theme.css">
+    <link rel="stylesheet" href="/libs/owl-carousel/assets/owl.carousel.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
     <!-- CSS only -->
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
 
     <!-- JS, Popper.js, and jQuery -->
-<!--    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
-<!--    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>--> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
 <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
 </head>
 <body>
@@ -72,7 +76,12 @@
                         <a href="#" class="header-nav-link">Bestselling</a>
                     </div>
                     <div class="header-nav-select">
-                        <div data-select-title class="header_select_title">CATEGORY</div>
+                        <div class="header-nav-select-item"> 
+                            <div data-select1 class="header_select_title">HELP</div>
+                        </div>
+                        <div class="header-nav-select-item"> 
+                            <div class="header_select_title">USD</div>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -80,7 +89,7 @@
     </header>
     <section class="carousel-section">
         <div class="container">
-            <div class="carousel">
+            <div class="carousel owl-carousel" id="carousel-header">
                 <div class="carousel_item">
                     <h2 class="carousel_item-title">The Universe Though A Child s Eyes</h2>
                      <div class="carousel_item-text">
@@ -291,6 +300,8 @@
             <p>index 85300</p>
         </span>
     </div>
+    <script src="libs//owl-carousel/owl.carousel.min.js"></script>
     <script src="js/catalog.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
