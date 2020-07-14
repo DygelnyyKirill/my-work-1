@@ -34,6 +34,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    height: 50px;
 }
 .nav_link {
     margin-left: 50px;
@@ -51,4 +52,16 @@ body {
 .intro {
    height: 250px; 
    background: url("../img/background/images3.jpg") center no-repeat;
+}
+.main .selected{
+    background:#afa}
+.JS {
+    padding-bottom: 450px;
+    color: black;
+}
+.head {
+    color: black;
+}
+.head1 {
+    color: black;
 }

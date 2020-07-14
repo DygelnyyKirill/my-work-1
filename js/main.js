@@ -1,4 +1,3 @@
-$(document).ready(function(){
-    $("#carousel-header").owlCarousel();
-        items: 1
-  });
+document .getElementById ( "changeGreen" ) .onclick = function () {
+    document .getElementById ( "output" ) .style.color = 'green' ;
+}
